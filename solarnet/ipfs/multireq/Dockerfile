@@ -1,4 +1,4 @@
-FROM golang:1.5.3
+FROM golang:1.6
 MAINTAINER Lars Gierth <larsg@systemli.org>
 
 ADD . /go/src/github.com/whyrusleeping/multireq

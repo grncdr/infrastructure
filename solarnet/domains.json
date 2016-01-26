@@ -1,0 +1,63 @@
+{
+  // infra services
+  "ipfs.team": {
+    "@": {
+      "CNAME": [ "gateway.ipfs.io." ],
+      "TXT": [ "dnslink=/ipfs/Qminfra" ]
+    },
+    "metrics": {
+      "AAAA": "todo"
+    }
+  },
+
+  // infra inventory
+  "i.ipfs.team": {
+    "earth": {
+      "A": [ "178.62.158.247" ],
+      "AAAA": [ "2a03:b0c0:0:1010::23:1001" ]
+    }
+  },
+  "fc.ipfs.team": {
+    "earth": {
+      "AAAA": [ "fc29:9fda:3b73:c1d2:9302:31e3:964c:144c" ]
+    }
+  },
+  "ipfs.io": {
+    "@": {
+      "A": [ "178.62.158.247" ],
+      "AAAA": [ "2a03:b0c0:0:1010::23:1001" ],
+      "TXT": [ "dnslink=/ipfs/Qmwebsite" ]
+    },
+  },
+
+  // core ipfs.io
+  "ipfs.io": {
+    "@": {
+      "A": [ "178.62.158.247" ],
+      "AAAA": [ "2a03:b0c0:0:1010::23:1001" ],
+      "TXT": [ "dnslink=/ipfs/Qmwebsite" ]
+    },
+    "fc": {
+      "AAAA": [ "fc29:9fda:3b73:c1d2:9302:31e3:964c:144c" ]
+    }
+  },
+  "gateway.ipfs.io": {
+    "@": {
+      "A": [ "178.62.158.247" ],
+      "AAAA": [ "2a03:b0c0:0:1010::23:1001" ],
+    },
+    "fc": {
+      "AAAA": [ "fc29:9fda:3b73:c1d2:9302:31e3:964c:144c" ]
+    }
+  },
+
+  // pages
+  "dist.ipfs.io": {
+    "@": {
+      "CNAME": [ "gateway.ipfs.io." ]
+    },
+    "_dnslink": {
+      "TXT": [ "dnslink=/ipfs/Qmdist" ]
+    }
+  }
+}
